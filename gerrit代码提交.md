@@ -16,12 +16,13 @@ ssh-keygen -t rsa -C "xin.gao_a@**.com"
 cat ~/.ssh/id_rsa.pub
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/9337fb1c80e343c794cf8b2bdf554ea7.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/28d9143ff798447a9ab06dc9b07d4bc8.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/28d9143ff798447a9ab06dc9b07d4bc8.png)\
 把复制的公钥粘帖到下面的框中
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/58363ba0fe484ef3859b2fa2002458b0.png)
 #### 3. 拉取项目
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/baffc8cb600b48ad8cb11aeb6c7bf9f8.png)
-打开要克隆的项目目录点击ssh并复制命令
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/baffc8cb600b48ad8cb11aeb6c7bf9f8.png) \
+打开要克隆的项目目录点击ssh并复制命令 \
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/ef5531486dca4dc5b4c0f3ad0c1517bf.png)
 
 ```bash
@@ -37,7 +38,7 @@ git config user.name xin.gao_a
 git config user.name xin.gao_a@**.com
 ```
 
-- git config --list来查看一下当前git仓库的配置
+- git config --list来查看一下当前git仓库的配置 \
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/4f5b09983dcd41b7858e39609b2313a6.png)
 
 - 将push的线设置为refs/for/master
